@@ -1,93 +1,93 @@
 .banner {
-    position: relative;
+  position: relative;
 }
 
 .banner > ul {
-    width: 1200px;
-    height: 450px;
-    /*background-color: red;*/
+  width: 1200px;
+  height: 450px;
+  /*background-color: red;*/
 }
 
 .banner > ul li img {
-    height: 100%;
-    width: 100%
+  height: 100%;
+  width: 100%;
 }
 
 .banner-nav {
-    height: 100%;
-    width: 234px;
-    background-color: rgba(0, 0, 0, .5);
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 20px 0;
+  height: 100%;
+  width: 234px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px 0;
 }
 
 .banner-nav ul li a {
-    font-size: 16px;
-    color: #fff;
-    height: 41px;
-    padding-left: 30px;
-    line-height: 41px;
+  font-size: 16px;
+  color: #fff;
+  height: 41px;
+  padding-left: 30px;
+  line-height: 41px;
 }
 
 .banner-nav ul li a::after {
-    content: '\e907';
-    font-family: 'icomoon';
-    float: right;
-    margin-right: 25px;
+  content: "\e907";
+  font-family: "icomoon";
+  float: right;
+  margin-right: 25px;
 }
 
 .banner-nav ul li:hover {
-    background-color: rgb(255, 103, 0);
+  background-color: rgb(255, 103, 0);
 }
 
 .btn {
-    position: absolute;
-    top: 50%;
-    left: 234px;
-    transform: translateY(-50%);
-    width: 966px;
-    display: flex;
-    justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  left: 234px;
+  transform: translateY(-50%);
+  width: 966px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .btn span {
-    font-size: 50px;
-    cursor: pointer;
+  font-size: 50px;
+  cursor: pointer;
 }
 
 .btn span:hover {
-    background-color: rgba(0, 0, 0, .2);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .btn span:nth-child(1)::after {
-    content: '\e907';
-    font-family: 'icomoon';
-    display: block;
-    transform: rotate(180deg);
+  content: "\e907";
+  font-family: "icomoon";
+  display: block;
+  transform: rotate(180deg);
 }
 
 .btn span:nth-child(2)::after {
-    content: '\e907';
-    font-family: 'icomoon';
+  content: "\e907";
+  font-family: "icomoon";
 }
 
 .banner-bottom {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 .banner-bottom ul {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .banner-bottom ul li:nth-child(1) ul {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .banner-bottom ul li:nth-child(1) ul li:nth-child(1),
@@ -96,11 +96,11 @@
 .banner-bottom ul li:nth-child(1) ul li:nth-child(4),
 .banner-bottom ul li:nth-child(1) ul li:nth-child(5),
 .banner-bottom ul li:nth-child(1) ul li:nth-child(6) {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: rgb(207, 204, 202);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(207, 204, 202);
 }
 
 .banner-bottom ul li:nth-child(1) ul li:nth-child(1) span::before,
@@ -109,271 +109,348 @@
 .banner-bottom ul li:nth-child(1) ul li:nth-child(4) span::before,
 .banner-bottom ul li:nth-child(1) ul li:nth-child(5) span::before,
 .banner-bottom ul li:nth-child(1) ul li:nth-child(6) span::before {
-    content: '\e90c';
-    font-family: 'icomoon';
-    display: block;
-    font-size: 30px;
-    margin-left: 7px;
-    color: rgb(207, 204, 202);
+  content: "\e90c";
+  font-family: "icomoon";
+  display: block;
+  font-size: 30px;
+  margin-left: 7px;
+  color: rgb(207, 204, 202);
 }
 
 .banner-bottom ul li:nth-child(1) ul li:nth-child(2) span::before {
-    content: '\e909';
+  content: "\e909";
 }
 
 .banner-bottom ul li:nth-child(1) ul li:nth-child(3) span::before {
-    content: '\e90a';
+  content: "\e90a";
 }
 
 .banner-bottom ul li:nth-child(1) ul li:nth-child(4) span::before {
-    content: '\e90e';
-    display: block;
+  content: "\e90e";
+  display: block;
 }
 
 .banner-bottom ul li:nth-child(1) ul li:nth-child(5) span::before {
-    content: '\e90b';
+  content: "\e90b";
 }
 
 .banner-bottom ul li:nth-child(1) ul li:nth-child(6) span::before {
-    content: '\e90d';
+  content: "\e90d";
 }
 
 .banner-bottom ul li:nth-child(1) {
-    width: 234px;
-    height: 170px;
-    background-color: rgb(95, 87, 80);
+  width: 234px;
+  height: 170px;
+  background-color: rgb(95, 87, 80);
 
-    display: flex;
+  display: flex;
 }
 
 .banner-bottom ul li:nth-child(1) ul li {
-    width: 73px;
-    height: 80px;
+  width: 73px;
+  height: 80px;
 }
 
 .banner-bottom ul li {
-    width: 316px;
-    height: 170px;
-
+  width: 316px;
+  height: 170px;
 }
 
 .banner-bottom ul li img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .shop {
-    margin-top: 20px;
-    background-color: rgb(245, 245, 245);
+  margin-top: 20px;
+  background-color: rgb(245, 245, 245);
 }
 
 .shop-shangou {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .shop-shangou ul {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .shop-shangou ul li {
-    width: 234px;
-    height: 340px;
-    background-color: rgb(250, 250, 250);
+  width: 234px;
+  height: 340px;
+  background-color: rgb(250, 250, 250);
 }
 
 .shop-shangou ul li img {
-    width: 100%;
+  width: 100%;
 }
 
 .shop-shangou .text {
-    text-align: center;
+  text-align: center;
 }
 
 .shop-shangou .text h2 {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .shop-shangou .text p {
-    margin-top: 8px;
-    color: #ccc;
+  margin-top: 8px;
+  color: #ccc;
 }
 
 .shop-shangou .text span {
-    display: block;
-    margin-top: 15px;
-    font-size: 16px;
-    color: red;
+  display: block;
+  margin-top: 15px;
+  font-size: 16px;
+  color: red;
 }
 
 .shop-shangou ul li:nth-child(1) {
-    background-color: rgb(241, 237, 237);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  background-color: rgb(241, 237, 237);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.shop-shangou ul li:nth-child(1) span, .shop-shangou ul li:nth-child(1) p {
-    text-align: center;
-    font-size: 28px;
-    color: #f00;
-    margin-bottom: 15px;
+.shop-shangou ul li:nth-child(1) span,
+.shop-shangou ul li:nth-child(1) p {
+  text-align: center;
+  font-size: 28px;
+  color: #f00;
+  margin-bottom: 15px;
 }
 
 .shop-shangou ul li:nth-child(1) > span::after {
-    content: '\e90f';
-    font-family: 'icomoon';
-    display: block;
-    font-size: 100px;
+  content: "\e90f";
+  font-family: "icomoon";
+  display: block;
+  font-size: 100px;
 }
 
 .shop-shangou ul li:nth-child(1) .time b {
-    width: 46px;
-    height: 46px;
-    background-color: rgb(96, 87, 81);
-    display: inline-block;
-    font-size: 28px;
-    color: #fff;
+  width: 46px;
+  height: 46px;
+  background-color: rgb(96, 87, 81);
+  display: inline-block;
+  font-size: 28px;
+  color: #fff;
 
-    text-align: center;
-    line-height: 46px;
+  text-align: center;
+  line-height: 46px;
 }
 
-.shangou-title h1, .shop-iphone-title h1 {
-    font-weight: normal;
-    margin-top: 10px;
+.shangou-title h1,
+.shop-iphone-title h1 {
+  font-weight: normal;
+  margin-top: 10px;
 }
 
 .shop-iphone-title .left-right p {
-    font-size: 15px;
-    margin-top: 10px;
+  font-size: 15px;
+  margin-top: 10px;
 }
 
 .shop-iphone-title .left-right p::after {
-    content: '\e908';
-    display: inline-block;
-    transform: rotate(180deg);
-    font-size: 20px;
-    vertical-align: center;
-    margin-left: 5px;
-    font-family: 'icomoon';
+  content: "\e908";
+  display: inline-block;
+  transform: rotate(180deg);
+  font-size: 20px;
+  vertical-align: center;
+  margin-left: 5px;
+  font-family: "icomoon";
 }
 
 .shop-iphone-title .left-right p:hover {
-    color: #f00;
+  color: #f00;
 }
 
 .shangou-title span {
-    font-size: 20px;
-    width: 30px;
-    border: 1px solid #ccc;
-    display: inline-block;
-    text-align: center;
-    margin-top: 10px;
-    cursor: pointer;
+  font-size: 20px;
+  width: 30px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+  cursor: pointer;
 }
 
 .shangou-title .right::after {
-    content: '\e907';
-    font-family: 'icomoon';
-
+  content: "\e907";
+  font-family: "icomoon";
 }
 
 .shangou-title .left::after {
-    content: '\e907';
-    font-family: 'icomoon';
-    display: inline-block;
-    transform: rotate(180deg);
+  content: "\e907";
+  font-family: "icomoon";
+  display: inline-block;
+  transform: rotate(180deg);
 }
 
 .shop-shangou ul li:nth-child(1) .time strong {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .shop-shangouAD {
-    margin-top: 20px;
-    height: 120px;
+  margin-top: 20px;
+  height: 120px;
 }
 
 .shop-shangouAD img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .shop-iphone .left {
-    width: 234px;
-    height: 614px;
-    background-color: red;
+  width: 234px;
+  height: 614px;
+  background-color: red;
 }
 
 .shop-iphone .left img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .shop-iphone .right {
-    width: 956px;
-    float: right;
+  width: 956px;
+  float: right;
 }
 
 .shop-iphone .right ul {
-    width: 100%;
-    height: 614px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: space-between;
+  width: 100%;
+  height: 614px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
 }
 
 .shop-iphone .right ul li {
-    width: 234px;
-    height: 300px;
-    /*border: 1px solid #ccc;*/
-    float: right;
-    transition: all .3s;
+  width: 234px;
+  height: 300px;
+  /*border: 1px solid #ccc;*/
+  float: right;
+  transition: all 0.3s;
 }
-.shop-iphone .right ul li:hover{
-    box-shadow: 0 0 15px #ccc;
+.shop-iphone .right ul li:hover {
+  box-shadow: 0 0 15px #ccc;
 }
 .shop-iphone .right ul li {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
 }
 
 .shop-iphone .right ul li img {
-    width: 160px;
-    height: 160px;
+  width: 160px;
+  height: 160px;
 }
 
 .shop-iphone .right ul li .text {
-    text-align: center;
+  text-align: center;
 }
 
 .shop-iphone .right ul li .text h2 {
-    font-size: 16px;
+  font-size: 16px;
 }
 
-.shop-iphone .right ul li .text p:nth-of-type(1){
-    color: #B0B0B0;
-    font-size: 14px;
-    margin-top: 10px;
+.shop-iphone .right ul li .text p:nth-of-type(1) {
+  color: #b0b0b0;
+  font-size: 14px;
+  margin-top: 10px;
 }
-.shop-iphone .right ul li .text p:nth-of-type(2){
-    color: #f00;
-    font-size: 13px;
-    margin-top: 15px;
-}
-
-.shop-iphoneAD{
-    margin-top: 20px;
-    height: 120px;
+.shop-iphone .right ul li .text p:nth-of-type(2) {
+  color: #f00;
+  font-size: 13px;
+  margin-top: 15px;
 }
 
-.shop-iphoneAD img{
-    width: 100%;
-    height: 100%;
+.shop-iphoneAD {
+  margin-top: 20px;
+  height: 120px;
+}
+
+.shop-iphoneAD img {
+  width: 100%;
+  height: 100%;
+}
+
+.jiadian .title h1 {
+  font-weight: normal;
+  float: left;
+}
+
+.jiadian .title .text {
+  float: right;
+  margin-top: 20px;
+}
+.jiadian .title .text span {
+  font-size: 14px;
+  transition: all 0.3s;
+  margin-left: 15px;
+}
+
+.jiadian .title .text span:hover {
+  border-bottom: 4px solid #f00;
+}
+.jiadian ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+  height: 615px;
+}
+.jiadian ul li {
+  width: 234px;
+  height: 300px;
+  transition: all 0.3s;
+}
+.jiadian ul li:hover {
+  box-shadow: 0 0 15px #ccc;
+}
+.jiadian ul li:nth-child(1) img,
+.jiadian ul li:nth-child(6) img {
+  width: 100%;
+  height: 100%;
+}
+.jiadian ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+.jiadian ul li > img {
+  width: 160px;
+  height: 160px;
+}
+
+.jiadian ul li .text {
+  text-align: center;
+}
+
+.jiadian ul li .text h3 {
+  font-size: 14px;
+}
+.jiadian ul li .text p:nth-of-type(1) {
+  color: #b0b0b0;
+  margin-top: 10px;
+}
+.jiadian ul li .text p:nth-of-type(2) {
+  color: #f00;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.jiadian-AD {
+  height: 120px;
+  margin-top: 20px;
+}
+
+.jiadian-AD img {
+  width: 100%;
+  height: 100%;
 }

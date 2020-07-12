@@ -1,97 +1,115 @@
-header{
-    width: 100%;
-    height: 39px;
-    background-color: #333333;
-    color: #B0B0B0;
-    line-height: 39px;
-    overflow: hidden;
+header {
+  width: 100%;
+  height: 39px;
+  background-color: #333333;
+  color: #b0b0b0;
+  line-height: 39px;
+  overflow: hidden;
 }
 
-header .content ul li{
-    float: left;
+header .content ul li {
+  float: left;
 }
-header .content ul li:hover a{
-    color: #fff;
+header .content ul li:hover a {
+  color: #fff;
 }
-header .content ul li a::after{
-    content: '|';
-    margin: 0 3px;
-    color: rgb(63,57,53);
-}
-
-header .content ul li:last-child a::after{
-    content: '';
+header .content ul li a::after {
+  content: "|";
+  margin: 0 3px;
+  color: rgb(63, 57, 53);
 }
 
-.right ul li:last-child{
-    background-color: rgb(66,66,66);
-    padding: 0 15px;
+header .content ul li:last-child a::after {
+  content: "";
 }
 
-.right ul li:last-child a span::before{
-    content: '\e906';
-    font-family: 'icomoon';
-    font-size: 14px;
-    margin-right: 7px;
-    vertical-align: middle;
-}
-.nav{
-    margin-top: 20px;
+.right ul li:last-child {
+  background-color: rgb(66, 66, 66);
+  padding: 0 15px;
 }
 
-.logo{
-    width: 55px;
-    height: 55px;
-    background-color: rgb(255,103,0);
-    display: flex;
-    justify-content: center;
-    align-content: center;
+.right ul li:last-child a span::before {
+  content: "\e906";
+  font-family: "icomoon";
+  font-size: 14px;
+  margin-right: 7px;
+  vertical-align: middle;
 }
-.nav-list{
-    margin-left: 100px;
-}
-.nav-list ul li{
-    float: left;
-    height: 88px;
-    padding: 0 15px;
-    line-height: 66px;
-}
-.nav-list ul li:hover a{
-    color: red;
-}
-.nav-list ul li a{
-    font-size: 16px;
-    color: #333;
-}
-.search{
-    border: 1px solid #ccc;
-    width: 300px;
-    height: 50px;
+.nav {
+  margin-top: 20px;
 }
 
-.search input{
-    border: none;
-    outline: none;
-    font-size: 16px;
-    text-indent: 20px;
-    width: 245px;
-    height: 100%;
-    float: left;
+.logo {
+  width: 55px;
+  height: 55px;
+  background-color: rgb(255, 103, 0);
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
-.search>a{
-    width: 53px;
-    height: 100%;
-    display: block;
-    float: left;
+.nav-list {
+  margin-left: 100px;
+}
+.nav-list ul li {
+  float: left;
+  height: 88px;
+  padding: 0 15px;
+  line-height: 66px;
+}
+.nav-list ul li:hover a {
+  color: red;
+}
+.nav-list ul li a {
+  font-size: 16px;
+  color: #333;
+}
+.search {
+  border: 1px solid #ccc;
+  width: 300px;
+  height: 50px;
 }
 
-.search>a::after{
-    content: '\e905';
-    font-family: 'icomoon';
-    font-size: 25px;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-left: 1px solid #ccc;
+.search input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  text-indent: 20px;
+  width: 245px;
+  height: 100%;
+  float: left;
+}
+.search > a {
+  width: 53px;
+  height: 100%;
+  display: block;
+  float: left;
+}
+
+.search > a::after {
+  content: "\e905";
+  font-family: "icomoon";
+  font-size: 25px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid #ccc;
+}
+.sidebar ul {
+  display: none;
+  border: 1px solid #ccc;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.sidebar ul li {
+  width: 84px;
+  height: 92px;
+  border-bottom: 1px solid #ccc;
+  background-color: rgb(255, 255, 255);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
