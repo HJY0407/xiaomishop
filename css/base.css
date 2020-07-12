@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+body{
+    height: 20000px;
+}
+
+a{
+    text-decoration: none;
+    color: #B0B0B0;
+}
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.clearfix:after{
+    content:".";  /*尽量不要为空，一般写一个点*/
+    height:0;     /*盒子高度为0，看不见*/
+    display:block;    /*插入伪元素是行内元素，要转化为块级元素*/
+    visibility:hidden;      /*content有内容，将元素隐藏*/
+    clear:both;
+}
+
+.clearfix {
+    *zoom: 1;   /*  *只有IE6,7识别 */
+}
